@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F52C6C12ABFD19A0050470A /* model.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4F52C6BF2ABFD16F0050470A /* model.usdz */; };
 		5CFCCF9D28BEE2B8001CD397 /* DemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCF9C28BEE2B8001CD397 /* DemoAppApp.swift */; };
 		5CFCCF9F28BEE2B8001CD397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCF9E28BEE2B8001CD397 /* ContentView.swift */; };
 		5CFCCFA128BEE2B9001CD397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCCFA028BEE2B9001CD397 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F52C6BF2ABFD16F0050470A /* model.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = model.usdz; sourceTree = "<group>"; };
 		5CB21B4228BEE33A00B39783 /* ios-framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ios-framework"; path = ..; sourceTree = "<group>"; };
 		5CFCCF9928BEE2B8001CD397 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFCCF9C28BEE2B8001CD397 /* DemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppApp.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F52C6C02ABFD17A0050470A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4F52C6BF2ABFD16F0050470A /* model.usdz */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		5CB21B4328BEE34B00B39783 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 			children = (
 				5CFCCF9C28BEE2B8001CD397 /* DemoAppApp.swift */,
 				5CFCCF9E28BEE2B8001CD397 /* ContentView.swift */,
+				4F52C6C02ABFD17A0050470A /* Assets */,
 				5CFCCFA028BEE2B9001CD397 /* Assets.xcassets */,
 				5CFCCFA228BEE2B9001CD397 /* Preview Content */,
 			);
@@ -221,7 +232,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "DemoApp" */;
+			buildConfigurationList = 5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "S3D3DViewer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFCCFA428BEE2B9001CD397 /* Preview Assets.xcassets in Resources */,
+				4F52C6C12ABFD19A0050470A /* model.usdz in Resources */,
 				5CFCCFA128BEE2B9001CD397 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "DemoApp" */ = {
+		5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "S3D3DViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CFCCFBB28BEE2B9001CD397 /* Debug */,

@@ -6,11 +6,22 @@
 //
 
 import SwiftUI
+import S3D3DViewer
+import S3DCoreModels
 
 struct ContentView: View {
+    @ObservedObject var model:ScenekitModel
+    init(){
+        guard let url = Bundle.main.url(forResource: "model", withExtension: "usdz") else {
+           fatalError()
+        }
+        let media = MediaItem(url:url)
+        self.model =  ScenekitModel(item: media)
+    }
+   
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       ScenekitView(model: model)
     }
 }
 
