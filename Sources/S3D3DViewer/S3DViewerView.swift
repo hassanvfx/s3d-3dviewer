@@ -17,31 +17,8 @@ public struct ScenekitView: View {
     public var body: some View {
         ZStack {
             Text("Loading")
-
             ScenekitVC.ViewUI(model: model)
-
-//            Column{
-//                Text("data: \(worker.info.dataLenght ?? 0)")
-//                Text("zipFile: \(worker.info.zipFile?.absoluteString ?? "")")
-//                Text("zipContents: \(worker.info.zipContents?.absoluteString ?? "")")
-//                Text("modelURL: \(worker.info.item?.modelURL.absoluteString ?? "")")
-//                Text("textureURL: \(worker.info.item?.textureURL.absoluteString ?? "")")
-//            }
         }
-        .overlay(
-            VStack {
-                Button( action: {
-                   
-                }){
-                    Text("Back")
-                }
-                Spacer()
-            }
-           
-        )
-        .edgesIgnoringSafeArea(.all)
-        
-       
     }
 }
 
