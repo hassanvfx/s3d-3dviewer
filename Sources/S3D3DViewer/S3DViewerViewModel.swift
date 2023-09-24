@@ -7,7 +7,7 @@ import Foundation
 import S3DCoreModels
 
 public class ScenekitModel: ObservableObject {
-    @Published var item: MediaItem
+    @Published public var item: MediaItem
     public init(item:MediaItem){
         self.item = item
     }
